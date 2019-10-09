@@ -77,3 +77,42 @@ I'll make a list:
 \t* Obama
 \t* Plants\n\t* Flower
 """
+
+print(tabbyCat)
+print(ferret)
+print(ok)
+print(taskcat)
+
+# Escape seq                What does it do
+# \\
+# \'
+# \"
+# \a
+# \b
+# \f
+# \n
+# \N{name}
+# \r
+# \t
+# \uzzz
+# \Uxxxxxx
+# \v
+# \ooo
+# \xhh
+
+# what's the following code do:
+#  while True:
+#         for i in ["/","-","|","\\","|"]
+#               print("%s\r" % i, ends='')
+
+# can you replace """ with '''?
+Yes
+
+fooso = '''Hows the wife
+im aldlll
+and no pie is no gain'''
+andree = """ why ar eto being so lame 
+what a dumb foosoo
+im better"""
+print(fooso)
+print(andree)
