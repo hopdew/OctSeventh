@@ -106,7 +106,7 @@ print(taskcat)
 #               print("%s\r" % i, ends='')
 
 # can you replace """ with '''?
-Yes
+# Yes
 
 fooso = '''Hows the wife
 im aldlll
@@ -116,3 +116,12 @@ what a dumb foosoo
 im better"""
 print(fooso)
 print(andree)
+
+# Asking Questions
+
+racoon = input("How many racoons do you have?")
+teeth = input("How many teeth do you have?")
+
+
+
+print("So, you  have %r racoons and have %r teeth? Cool I guess." % (racoon, teeth))
